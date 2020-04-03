@@ -8,12 +8,31 @@ public class Queue {
 
     }
 
-    public void add (Request request) {
+    /**
+     * Adds request to the queue and returns requestNumber
+     * @param request
+     * @return
+     */
+    public int add (Request request) {
+        return 0;
+    }
+
+    /**
+     * Calculates waiting time for the request in the given queue
+     * @param request
+     * @return
+     */
+
+    private int calculateWaitingTime (Request request) {
+        return 0;
+    }
+
+    public void delete (Request request) {
 
     }
 
-    public  void delete (Request request) {
-
+    public ArrayList<QueueElement> getQueueElements() {
+        return queueElements;
     }
 
     public ArrayList<QueueElement> getQueueElementsOfTypes (String[] types) {

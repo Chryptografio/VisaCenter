@@ -1,4 +1,5 @@
 public class InformationBoard {
+    private String data;
     public InformationBoard (Queue queue, Windows windows) {
 
     }
@@ -8,7 +9,12 @@ public class InformationBoard {
      * @param queue
      * @param windows
      */
+
     public void update (Queue queue, Windows windows) {
+
+    }
+
+    public void showData () {
 
     }
 }

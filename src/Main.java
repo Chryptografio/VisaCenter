@@ -10,19 +10,6 @@ public class Main {
 
     }
 
-    public void addRequestToQueue (Request request) {
-
-    }
-
-
-    public void callNewRequest () {
-
-    }
-
-    public void updateInformationBoard() {
-
-    }
-
     public static void main(String[] args) {
 
     }

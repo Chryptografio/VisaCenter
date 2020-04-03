@@ -3,12 +3,13 @@ import requests.Request;
 import java.sql.Timestamp;
 
 /**
- * Терминал выдачи талонов
+ * Queue number issuing terminal
  */
 
 public class InformationTerminal {
 
     InformationTerminal (Timestamp time) {
+
     }
 
     /**
@@ -16,7 +17,7 @@ public class InformationTerminal {
      * @param request chosen request
      */
 
-    public void sendRequest (Request request) {
+    public void sendRequest (Request request, Queue queue) {
 
     }
 }

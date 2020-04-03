@@ -9,4 +9,8 @@ public class Windows {
     public void add (String[] types) {
 
     }
+
+    public ArrayList<Window> getWindows() {
+        return windows;
+    }
 }

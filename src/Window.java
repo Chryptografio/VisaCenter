@@ -4,9 +4,18 @@ public class Window {
     String[] TYPES;
 
     public Window(int windowNumber, String[] types) {
+
     }
 
-    public void callNext() {
+    public int getWindowNumber () {
+        return windowNumber;
+    }
+
+    public int getRequestNumber() {
+        return requestNumber;
+    }
+
+    public void callNext(Queue queue) {
 
     }
 }
